@@ -19,7 +19,7 @@ table, th, td {
     vertical-align: text-top;
   }
 
-#left-column {
+.left-column {
     color: rgba(14, 65, 148, 1);
     text-align: right;
     font-size: 12px;
@@ -27,23 +27,23 @@ table, th, td {
     width: 180px;
 }
 
-#left-column-languages {
+.left-column-languages {
     text-align: right;
     padding-right: 15px;
 }
 
-#right-column-large-font {
+.right-column-large-font {
     font-size: 17px;
     font-weight: 200;
     line-height: 25px;
 }
 
-#right-column-medium-font {
+.right-column-medium-font {
     font-size: 15px;
     color: rgba(14, 65, 148, 1);
 }
 
-#right-column-width {
+.right-column-width {
     width: 550px;
 }
 
@@ -55,12 +55,76 @@ ul {
     list-style-position: inside;
 }
 
-#light-blue {
+.light-blue {
     color: rgba(21, 147, 203, 1);
 }
 
-#foreign-languages {
+.foreign-languages {
     color: rgba(14, 65, 148, 1);
     text-align: center;
     padding: 2px;
+}
+
+.foreign-languages1 {
+    color: rgba(14, 65, 148, 1);
+    text-align: center;
+    padding: 2px;
+    width: 150px;
+}
+
+.foreign-languages2 {
+    color: rgba(14, 65, 148, 1);
+    text-align: center;
+    padding: 2px;
+    width: 100px;
+}
+
+.padding-35 {
+    padding-bottom: 35px;
+}   
+
+.padding-0 {
+    padding: 0;
+}  
+
+.padding-5 {
+    padding-left: 5px;
+} 
+
+.padding-15 {
+    padding-bottom: 15px;
+}  
+
+.padding-50 {
+    padding-bottom: 50px;
+} 
+
+.language-level1 {
+    width:92px; 
+    text-align:center; 
+    padding:0;
+}
+
+.language-level2 {
+    width:56px; 
+    text-align:center; 
+    padding:0;
+}
+
+.language-level3 {
+    width:137px; 
+    text-align:center; 
+    padding:0;
+}
+
+.language-level4 {
+    width:66px; 
+    text-align:center; 
+    padding:0;
+}
+
+.language-level5 {
+    width:105px; 
+    text-align:center; 
+    padding:0;
 }
