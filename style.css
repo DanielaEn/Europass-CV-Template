@@ -13,14 +13,14 @@ body {
 
 table, th, td {
     text-align: left;
-    color: rgba(63, 58, 56, 1);
+    color: #3f3a38;
     font-size: 12px;
     padding-left: 15px;
     vertical-align: text-top;
   }
 
 .left-column {
-    color: rgba(14, 65, 148, 1);
+    color: #0e4194;
     text-align: right;
     font-size: 12px;
     padding-right: 15px;
@@ -40,7 +40,7 @@ table, th, td {
 
 .right-column-medium-font {
     font-size: 15px;
-    color: rgba(14, 65, 148, 1);
+    color: #0e4194;
 }
 
 .right-column-width {
@@ -56,24 +56,24 @@ ul {
 }
 
 .light-blue {
-    color: rgba(21, 147, 203, 1);
+    color: #1593cb;
 }
 
 .foreign-languages {
-    color: rgba(14, 65, 148, 1);
+    color: #0e4194;
     text-align: center;
     padding: 2px;
 }
 
 .foreign-languages1 {
-    color: rgba(14, 65, 148, 1);
+    color: #0e4194;
     text-align: center;
     padding: 2px;
     width: 150px;
 }
 
 .foreign-languages2 {
-    color: rgba(14, 65, 148, 1);
+    color: #0e4194;
     text-align: center;
     padding: 2px;
     width: 100px;
