@@ -210,28 +210,25 @@ footer {
     padding-top: 5%;
 }
 
-.footer1 {
-    width: 400px;
-    float: left;
-}
-
-.footer2 {
-    width: 150px;
-    float: left;
-    text-align: right;
-}
-
-.clear:after {
-    clear: both;
-    display: table;
-    content: "";
-}
-
 .europass {
     text-decoration: none;
     color: #1593cb;
 }
 
-.footer3 {
-    padding-top: 57%;
+footer {
+    color: #1593cb;
+    padding-top: 8%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: baseline;
+}
+
+.footer1 {
+    color: #1593cb;
+    padding-top: 60%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: baseline;
 }
