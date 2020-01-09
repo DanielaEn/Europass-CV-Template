@@ -139,45 +139,34 @@ ul {
     height: 49px;
 }
 
-.icon-location {
-    background-image: url(images/location.png);
-    background-repeat: no-repeat;
+.icon-location::before {
+    content: url(images/location.png);
     width: 16px;
     height: 16px;
 }
 
-.icon-phone {
-    background-image: url(images/phone.png);
-    background-repeat: no-repeat;
+.icon-phone::before {
+    content: url(images/phone.png);
     width: 16px;
     height: 16px;
 }
 
-.icon-mobile {
-    background-image: url(images/mobile.png);
-    background-repeat: no-repeat;
+.icon-mobile::before {
+    content: url(images/mobile.png);
     width: 15px;
     height: 15px;
 }
 
-.icon-mail {
-    background-image: url(images/mail.png);
-    background-repeat: no-repeat;
+.icon-mail::before {
+    content: url(images/mail.png);
     width: 16px;
     height: 12px;
 }
 
-.icon-talk {
-    background-image: url(images/talk.png);
-    background-repeat: no-repeat;
+.icon-talk::before {
+    content: url(images/talk.png);
     width: 16px;
     height: 13px;
-}
-
-pre {
-    font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
-    text-align: left;
-    font-size: 12px;
 }
 
 .email {
@@ -202,36 +191,27 @@ pre {
     font-size: 10px;
 }
 
-footer {
-    font-size: 10px;
-    margin: 0;
-    width: 600px;
-    padding-left: 30%;
-    padding-top: 5%;
-}
 
-.footer1 {
-    width: 400px;
-    float: left;
-}
-
-.footer2 {
-    width: 150px;
-    float: left;
-    text-align: right;
-}
-
-.clear:after {
-    clear: both;
-    display: table;
-    content: "";
-}
 
 .europass {
     text-decoration: none;
     color: #1593cb;
 }
 
-.footer3 {
-    padding-top: 57%;
+footer {
+    font-size: 10px;
+    color: #1593cb;
+    padding-left: 30%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: baseline;
+}
+
+.footer1 {
+    padding-top: 18%;
+}
+
+.footer2 {
+    padding-top: 60%;
 }
